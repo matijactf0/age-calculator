@@ -15,5 +15,5 @@ function calculateAge() {
     setTimeout(function() {
         loader.style.display = "none";
         resultElement.innerHTML = "Vaša starost je: " + ageInYears + " godina.";
-    }, 1000); // Simulacija procesa koji traje 1 sekundu
+    }, 1000); 
 }
